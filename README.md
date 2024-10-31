@@ -7,7 +7,7 @@ which represents our webpages and have a hyperlinks in them so as  many hyperlin
 
 ![image](https://github.com/user-attachments/assets/7ddce9f5-127f-4581-9b08-b75c6e6121ff)
 
-As per this we can see importance of the webpage which recommends to the users based on the pagerank.
+As per this we can see importance of the webpage which recommends to the users based on the pagerank. As we can see most of the hyperlinks are situated or inserted in A webpage so if an user searched for 'Data science' then algorithm recommeds A webpage first on Google.
 
 
 
