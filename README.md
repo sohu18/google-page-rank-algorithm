@@ -13,9 +13,9 @@ Indetail informaiton of page rank
 
 
 Adjacency matrix
-
+$$
 M = \begin{bmatrix}
-
+  A & B & C & D & E & F & G \\
   0 & 1 & 1 & 0 & 1 & 1 & 1 \\
   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -25,7 +25,7 @@ M = \begin{bmatrix}
   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
   
 \end{bmatrix}
-
+$$
 where T2 is the total no of elements in the columns
  
 AS per our links which are for A TO G just we have to keep in mind about incoming links and outgoing links with that we have to created the adjacency matrix from A-G webpages  where incoming links are noted in
@@ -46,19 +46,5 @@ Transitional matrtix
 
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1
 
-
-
-
-M = \begin{bmatrix}
-
-  0 & 1 & 1 & 0 & 1 & 1 & 1 \\
-  0 & 0 & 0 & 1 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-\end{bmatrix}
-\]
 
 
