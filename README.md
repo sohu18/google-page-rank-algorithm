@@ -47,8 +47,7 @@ Transitional matrtix
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1
 
 
-\begin{document}
-\[
+
 
 M = \begin{bmatrix}
 
@@ -62,5 +61,4 @@ M = \begin{bmatrix}
 \end{bmatrix}
 \]
 
-\end{document}
 
