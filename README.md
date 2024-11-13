@@ -46,4 +46,14 @@ Transation matrix is designed in a way if we add all of the elements in the colu
 
 
 
-
+\[ 
+M = \begin{bmatrix}
+   0 & 1 & 1 & 0 & 1 & 1 & 1 \\
+   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   0 & 0 & 1 & 0 & 0 & 0 & 0 \\
+   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
