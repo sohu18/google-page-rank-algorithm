@@ -11,7 +11,7 @@ As per this we can see importance of the webpage which recommends to the users b
 
 Indetail informaiton of page rank:
 
-* Adjacency matrix:
+ Adjacency matrix:
 
     A B C D E F G   T1    where T1 is the total no of elements in the specific rows
 A   0 1 1 0 1 1 1   5
@@ -30,7 +30,7 @@ from a specific page as above.
 
    Similarly we create the transition matrix which show's the probability or percentage of the specifc webpages as follows:
 
-* Transitional matrtix:
+ Transitional matrtix:
     
 0   1 1/2 0 1 1 1
 0   0  0  1 0 0 0
