@@ -11,6 +11,8 @@ As per this we can see importance of the webpage which recommends to the users b
 
 Indetail informaiton of page rank
 
+
+
 Adjacency matrix
 
     A B C D E F G  T1    where T1 is the total no of elements in the specific rows
@@ -41,7 +43,7 @@ Transitional matrtix
 1/3 0  0  0 0 0 0
 
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1
-Now as we can't 
+
 
 
 
