@@ -12,19 +12,22 @@ As per this we can see importance of the webpage which recommends to the users b
 Indetail informaiton of page rank
 
 
-
 Adjacency matrix
 
-    A B C D E F G  T1    where T1 is the total no of elements in the specific rows
-A   0 1 1 0 1 1 1   5
-B   0 0 0 1 0 0 0   1
-C   1 0 0 0 0 0 0   1
-D   1 0 0 0 0 0 0   1
-E   0 0 0 0 0 0 0   0
-F   0 0 1 0 0 0 0   1
-G   1 0 0 0 0 0 0   1  
----------------------
-T2: 3 1 2 1 1 1 1      where T2 is the total no of elements in the columns
+M = \begin{bmatrix}
+
+  A & B & C & D & E & F & G \\ 
+  0 & 1 & 1 & 0 & 1 & 1 & 1 \\
+  0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+  0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+  0 & 0 & 1 & 0 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+  
+\end{bmatrix}
+
+where T2 is the total no of elements in the columns
  
 AS per our links which are for A TO G just we have to keep in mind about incoming links and outgoing links with that we have to created the adjacency matrix from A-G webpages  where incoming links are noted in
 the row and if we total all the elements in the rows then total will be the total incoming links in the specific webpages similarly if we add total elements in the  columns those will be the  total outgoing links
@@ -45,14 +48,5 @@ Transitional matrtix
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1
 
 
-$$
-M = \begin{bmatrix}
-  0 & 1 & 1 & 0 & 1 & 1 & 1 \\
-  0 & 0 & 0 & 1 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-\end{bmatrix}
-$$
+
+
