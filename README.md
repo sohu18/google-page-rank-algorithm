@@ -13,7 +13,7 @@ Indetail informaiton of page rank
 
 Adjacency matrix
 
-    A B C D E F G   T1    where T1 is the total no of elements in the specific rows
+    A B C D E F G  T1    where T1 is the total no of elements in the specific rows
 A   0 1 1 0 1 1 1   5
 B   0 0 0 1 0 0 0   1
 C   1 0 0 0 0 0 0   1
@@ -21,7 +21,7 @@ D   1 0 0 0 0 0 0   1
 E   0 0 0 0 0 0 0   0
 F   0 0 1 0 0 0 0   1
 G   1 0 0 0 0 0 0   1  
-----------------------
+---------------------
 T2: 3 1 2 1 1 1 1      where T2 is the total no of elements in the columns
  
 AS per our links which are for A TO G just we have to keep in mind about incoming links and outgoing links with that we have to created the adjacency matrix from A-G webpages  where incoming links are noted in
