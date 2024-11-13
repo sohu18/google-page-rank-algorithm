@@ -53,14 +53,4 @@ M = \begin{bmatrix}
 $$
 
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1:
-$$
-M = \begin{bmatrix}  
-   0 & 1 & 1/2 & 0 & 1 & 1 & 1 \\
-   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
-   1/3 & 0 & 0 & 0 & 0 & 0 & 0 \\
-   1/3 & 0 & 0 & 0 & 0 & 0 & 0 \\
-   0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-   0 & 0 & 1/2 & 0 & 0 & 0 & 0 \\
-   1/3 & 0 & 0 & 0 & 0 & 0 & 0 \\
-   \end{bmatrix}
-$$
+
