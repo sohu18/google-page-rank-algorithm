@@ -13,9 +13,10 @@ Indetail informaiton of page rank
 
 
 Adjacency matrix
+
 $$
 M = \begin{bmatrix}
-  A & B & C & D & E & F & G \\
+  
   0 & 1 & 1 & 0 & 1 & 1 & 1 \\
   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -26,6 +27,7 @@ M = \begin{bmatrix}
   
 \end{bmatrix}
 $$
+
 where T2 is the total no of elements in the columns
  
 AS per our links which are for A TO G just we have to keep in mind about incoming links and outgoing links with that we have to created the adjacency matrix from A-G webpages  where incoming links are noted in
