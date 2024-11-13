@@ -13,20 +13,21 @@ Indetail informaiton of page rank
 
 
 Adjacency matrix
+In the matrix below, you can see the links between pages:
 
 $$
 M = \begin{bmatrix}
-  
-  0 & 1 & 1 & 0 & 1 & 1 & 1 \\
-  0 & 0 & 0 & 1 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-  1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-  
+   0 & 1 & 1 & 0 & 1 & 1 & 1 \\
+   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   0 & 0 & 1 & 0 & 0 & 0 & 0 \\
+   1 & 0 & 0 & 0 & 0 & 0 & 0 \\
 \end{bmatrix}
 $$
+
+This matrix represents the structure.
 
 where T2 is the total no of elements in the columns
  
