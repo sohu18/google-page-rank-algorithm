@@ -1,4 +1,4 @@
-# Google-page-rank-algorithm
+# Google-page-rank-algorithm 
      DOCUMENTATION OF THE THE PAGERANK ALGORITHM: 
 
 ---Google's pagerank algorithm which rank's the websiites as per our search we are going to take a example search of 'Data science'.
@@ -12,8 +12,8 @@ As per this we can see importance of the webpage which recommends to the users b
 Indetail informaiton of page rank
 
 
-Adjacency matrix:
-In the matrix below, you can see the links between pages:
+ Adjacency matrix
+In the matrix below, you can see the links between pages
 
 $$
 M = \begin{bmatrix}
@@ -48,8 +48,8 @@ from a specific page as above.
 
 Similarly we create the transition matrix which show's the probability or percentage of the specifc webpages as follows
 
-Transitional matrtix:
-In the matrix below, you can see probability of the links between pages:
+ Transitional matrtix
+In the matrix below, you can see probability of the links between pages
 
 $$
 M = \begin{bmatrix}  
@@ -62,6 +62,7 @@ M = \begin{bmatrix}
   1/3 &  0 &  0  &  0  & 0 & 0 & 0 \\
 \end{bmatrix}
 $$
+
 As if we add all the  rows then it will be equivalent to our equations and if we add rows all of them will be goes to 1 
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1:
 
