@@ -28,12 +28,19 @@ M = \begin{bmatrix}
 $$
 
      Equations are depending on the incoming links
+     
 A=B+C+E+F+G   As per  the diagram above B,C,E,F,G is incoming in  A webpages.
+
 B=D/2         As per  the diagram above D is incoming in  2 webpages as in B and F.
+
 C=A/3         As  A is incoming for webpages in G,C,D thats why its A/3 a divided by 3.
+
 D=A/3         As  A is incoming for webpages in G,C,D thats why its A/3 a divided by 3.
+
 E=0           As there are no Incoming links in there.
+
 F=D/2         As D is incoming for webpage F and  B.
+
 G=A/3         As  A is incoming for webpages in G,C,D thats why its A/3 a divided by 3.
 
 From this equaitons the webpage E is the Dampnig webpage means its an dead end so we have to manage it by giving importance of 0.85% or probability
