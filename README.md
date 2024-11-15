@@ -103,9 +103,9 @@ As R rank matrix represents as:
 Now if we do a matrix multiplicaiotn with the transition matrix which is (M) with our rank matrix (R) then the resultant will be getting in C
 Temp=M*R   then we will be getting the some values points but as resulting c again we have to multiply result which is c with m till values does'nt changges or converges then as per the last resulting vector we will be executing the webpages as per the importance
 
-Temp=M*R
-temp2=M*temp
-temp3=M*temp2
+Temp=M*R,
+temp2=M*temp,
+temp3=M*temp2,
 .
 .
 .
