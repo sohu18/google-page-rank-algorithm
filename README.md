@@ -90,9 +90,6 @@ R = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\
-||||||||||||||||||||||||||||||\\
 As R rank matrix represents as:
 
 1st row representing A webpage
