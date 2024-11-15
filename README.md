@@ -74,7 +74,9 @@ $$
 As if we add all the  rows then it will be equivalent to our equations and if we add rows all of them will be goes to 1 
 Transation matrix is designed in a way if we add all of the elements in the columns then we will be getting 1:
 
-     As we don't know the importance of any websites then we will be assuming all of them are equally significant and will create the RANK vectors as follows:
+     As we don't know the importance of any websites then we will be assuming all of them are equally significant and will create the 
+     RANK vectors as follows:
+
 
 $$
 R = \begin{bmatrix} 
@@ -88,5 +90,29 @@ R = \begin{bmatrix}
 \end{bmatrix}
 $$
 
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+||||||||||||||||||||||||||||||
+As R rank matrix represents as:
+
+1st row representing A webpage
+2nd row representing B webpage
+3rd row representing C webpage
+4th row representing D webpage
+5th row representing E webpage
+6th row representing F webpage
+7th row representing G webpage
+
 Now if we do a matrix multiplicaiotn with the transition matrix which is (M) with our rank matrix (R) then the resultant will be getting in C
-C=M*R   then we will be getting the some values points but as resulting c again we have to multiply result which is c with m till values does'nt changges or converges then as per the last resulting vector we will be executing the webpages as per the importance
+Temp=M*R   then we will be getting the some values points but as resulting c again we have to multiply result which is c with m till values does'nt changges or converges then as per the last resulting vector we will be executing the webpages as per the importance
+
+Temp=M*R
+temp2=M*temp
+temp3=M*temp2
+.
+.
+.
+.
+.
+.
+so on till values dose'nt changes means till it get converge based on that values we rank the webpages.
